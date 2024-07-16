@@ -17,7 +17,7 @@ The project aims to address three primary inquiries:
 TLC Trip Record Data
 The trip records for both yellow and green taxis encompass various fields that document pickup and drop-off dates/times, locations, distances, itemized fares, rate types, payment methods, and driver-reported passenger counts.
 
-You can access the dataset through this: [Link](https://github.com/enochiankim/NYC-uber-data-engineering-project-etl-pipeline/tree/main/uber_raw_data)
+You can access the dataset through this: [Link](Data/uber_data.csv)
 
 For additional information about the dataset, refer to the following sources:
 
@@ -84,7 +84,6 @@ sudo python3 get-pip.py
 
 ## Step 10: Develop a dashboard using a dashboarding or reporting software; while Looker Studio was utilized, alternatives such as Power BI, Tableau, and more are viable options as well.
 
-<img src="![image](https://github.com/user-attachments/assets/34231296-82bf-4d14-9c74-8f1bb039dfcd)">
 
 ## Step 11: Answered SQL questions and query
 
