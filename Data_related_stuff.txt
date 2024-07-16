@@ -1,0 +1,38 @@
+LINKS:
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+----------------------------------------------------------------------------------------------------------
+1. **Yellow and Green Taxi Data:**
+   - Includes pick-up/drop-off dates and times, locations, trip distances, fares, rate types, payment types, and passenger counts.
+   - Data collected by authorized technology providers under TPEP/LPEP programs.
+   - NYC TLC provides the data but does not guarantee its accuracy.
+
+2. **For-Hire Vehicle (FHV) Data:**
+   - Includes dispatching base license number, pick-up date, time, and location ID.
+   - Generated from FHV Trip Record submissions by bases.
+   - TLC publishes the data as submitted, without guaranteeing its accuracy or completeness.
+   - Routine reviews and enforcement actions by TLC aim to ensure data accuracy and completeness.
+
+=============================================================================================================================
+
+1. **Yellow and Green Taxi Data:**
+   - **Fields Included:** Pick-up/drop-off dates and times, locations, trip distances, fares, rate types, payment types, and passenger counts.
+   - **Collection Method:** Data collected by authorized technology providers (TPEP/LPEP programs).
+   - **Accuracy Disclaimer:** NYC TLC provides the data but does not guarantee its accuracy.
+
+2. **For-Hire Vehicle (FHV) Data:**
+   - **Fields Included:** Dispatching base license number, pick-up date, time, and location ID.
+   - **Collection Method:** Data generated from FHV Trip Record submissions by bases.
+   - **Accuracy Disclaimer:** TLC publishes the data as submitted, without guaranteeing its accuracy or completeness.
+   - **Quality Control:** Routine reviews and enforcement actions by TLC aim to ensure data accuracy and completeness.
+
+====================================================================================================================================
+The document "Uber_data_model" to be a schema for a database related to taxi trips, including various dimensions and facts:
+
+- **Fact Table**: Central table with keys linking to dimension tables, and fields for fare and tax amounts.
+- **Datetime Dimension**: Contains pickup and dropoff datetime details, split into hours, days, months, years, and weekdays.
+- **Location Dimensions**: Include longitude and latitude for pickup and drop locations.
+- **Additional Dimensions**: Cover passenger count, trip distance, rate codes, and payment types.
+
+This summary provides an overview of the data structure and its components for managing taxi trip information.
+
