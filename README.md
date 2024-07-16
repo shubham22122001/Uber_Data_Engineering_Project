@@ -82,7 +82,7 @@ sudo python3 get-pip.py
 
 
 ## Step 10: Develop a dashboard using a dashboarding or reporting software; while Looker Studio was utilized, alternatives such as Power BI, Tableau, and more are viable options as well.
-
+<img src="uber_Dashboard.png">
 
 ## Step 11: Answered SQL questions and query
 
