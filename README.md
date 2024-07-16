@@ -74,6 +74,7 @@ sudo python3 get-pip.py
 
 ## Step 7: Construct a data pipeline using Mage Blocks such as data loader, transformer, and exporters. Integrate your transformation code into the data transformer, making the required modifications.
 
+<img src="etl_flow.PNG">
 
 
 ## Step 8: When the pipeline is prepared, include GCP credentials in the 'io_config.yaml' configuration file. Obtaining the credentials is straightforward through the APIs and Services section in the Google Console.
