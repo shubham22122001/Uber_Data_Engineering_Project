@@ -47,7 +47,7 @@ Google Cloud Platform Components:
 
 ## Step 3: Developing the Transformation Code using Python
 
-The code can be found here [Link](https://github.com/enochiankim/NYC-uber-data-engineering-project-etl-pipeline/blob/main/Uber%20Data%20Pipeline.ipynb)
+The code can be found here [Link](uber.ipynb)
 
 ## Step 4: Create a project and a Google Cloud Platform bucket, upload the data, designate the server, and configure the necessary permissions.
 
