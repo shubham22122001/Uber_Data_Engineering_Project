@@ -70,7 +70,6 @@ sudo python3 get-pip.py
 
 ## Step 6: Establish a connection between the VM and the Mage Project using SSH in the Linux Terminal, then initiate a Mage project (while also obtaining the required dependencies).
 
-<img src="mage.PNG">
 
 ## Step 7: Construct a data pipeline using Mage Blocks such as data loader, transformer, and exporters. Integrate your transformation code into the data transformer, making the required modifications.
 
