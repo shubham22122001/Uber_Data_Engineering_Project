@@ -1,6 +1,6 @@
 # NYC-uber-data-engineering-project-etl-pipeline
 
-![uber_logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fturbologo.com%2Farticles%2Fuber-logo%2F&psig=AOvVaw3AhOxHZLsG3Isvioe83V_R&ust=1721231784031000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjW7Zn2q4cDFQAAAAAdAAAAABAE)
+![uber_logo](uber_img.png)
 
 ## Introduction
 
