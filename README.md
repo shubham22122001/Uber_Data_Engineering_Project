@@ -89,7 +89,7 @@ sudo python3 get-pip.py
 What are the top 10 pickup locations ranked by the number of trips?
 
 SELECT pickup_location_id, count(pickup_location_id) Trip_Num
-FROM `uber_data_engineering_yt.fact_table` 
+FROM `uber_data_engineering.fact_table` 
 group by pickup_location_id
 order by Trip_Num desc
 LIMIT 10
@@ -98,7 +98,7 @@ LIMIT 10
 How many trips have been made based on passenger count?
 
 SELECT passenger_count, count(passenger_count) as passenger_trip
-FROM `uber_data_engineering_yt.tbl_analytics`
+FROM `uber_data_engineering.tbl_analytics`
 group by passenger_count
 order by passenger_trip desc
 
@@ -106,8 +106,8 @@ order by passenger_trip desc
 How does the average amount vary across different hours of the day?
 
 SELECT d.pick_hour,round(avg(fare_amount),2) as fare
-FROM `uber_data_engineering_yt.fact_table` f join 
-`uber_data_engineering_yt.datetime_dim` d on f.datetime_id = d.datetime_id
+FROM `uber_data_engineering.fact_table` f join 
+`uber_data_engineering.datetime_dim` d on f.datetime_id = d.datetime_id
 group by d.pick_hour
 order by fare desc
 
