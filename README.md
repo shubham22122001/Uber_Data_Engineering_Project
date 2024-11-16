@@ -41,7 +41,7 @@ Google Cloud Platform Components:
 ## Step 1: Developing the architectural framework for the project
 <img src="architecture.jpg">
 
-## Step 2: Data Modeling and Constructing an Entity-Relationship Diagram to Enhance Data Comprehension
+## Step 2: Dimensional Modeling and Constructing an Entity-Relationship Diagram to Enhance Data Comprehension
 
 <img src="model.png">
 
